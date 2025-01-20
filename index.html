@@ -11,21 +11,59 @@
             padding: 20px;
             background-color: #f0f0f0;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
             margin-bottom: 20px;
         }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
         p {
             color: #666;
             line-height: 1.6;
-            max-width: 600px;
-            margin: 0 auto;
+        }
+        ul {
+            color: #666;
+            line-height: 1.6;
+            margin-left: 20px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to My Page</h1>
-    <p>This is a simple welcome page for my GitHub repository.</p>
+    
+    <section>
+        <h2>About</h2>
+        <p>This is a demonstration page showcasing various HTML and CSS features. It serves as a template for building more complex web pages.</p>
+    </section>
+
+    <section>
+        <h2>Features</h2>
+        <ul>
+            <li>Clean and modern design</li>
+            <li>Responsive layout</li>
+            <li>Easy to customize</li>
+            <li>Well-structured code</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email: example@domain.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Main Street, City, Country</p>
+        </div>
+    </section>
 </body>
 </html>
